@@ -1,0 +1,23 @@
+{
+  "name": "agenda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "agenda": "^5.0.0",
+    "agendash": "^4.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-basic-auth": "^1.2.1",
+    "mongoose": "^8.15.0",
+    "nodemailer": "^7.0.3",
+    "twilio": "^5.6.1"
+  }
+}
